@@ -1,0 +1,10 @@
+:root {
+  --bg: #F8FAFC; --side: #FFFFFF; --card: #FFFFFF; --tx: #172033; --tx2: #64748B;
+  --ac: #6366F1; --ac2: #EEF2FF; --bd: #E2E8F0; --ok: #16A34A; --danger: #DC2626;
+  --sh: 0 1px 3px rgba(15, 23, 42, .06); --radius: 14px;
+}
+:root[data-theme='dark'] {
+  --bg: #0F172A; --side: #111C33; --card: #1A2540; --tx: #E8EDF7; --tx2: #9AA8C2;
+  --ac: #818CF8; --ac2: #252F57; --bd: #2B3858; --ok: #4ADE80; --danger: #F87171;
+  --sh: 0 1px 3px rgba(0, 0, 0, .4); color-scheme: dark;
+}
